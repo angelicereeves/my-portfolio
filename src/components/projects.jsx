@@ -18,60 +18,66 @@ import projectGif8 from "../assets/images/evilwizard.gif";
 
 // Array of project data with gif references
 const projectData = [
+    {
+    title: "Evil Wizard Game",
+    description: "A CLI turn based game where players can choose their character and battle against an evil wizard. Built with Python.",
+    gif: projectGif8,
+    link: "/projects/project8"
+  },
+    {
+    title: "To Do List App",
+    description: "Command line interface to do list allowing users to manage their daily tasks easily.",
+    gif: projectGif7,
+    link: "/projects/project7"
+  },
+    {
+    title: "Quiz App",
+    description: "A simple and interactive quiz application built with React. The app fetches multiple-choice questions of varying difficulty and topics from an external API.",
+    gif: projectGif6,
+    link: "/projects/project6"
+  },
+    {
+    title: "Fake Store App",
+    description: "Simple online store application using React. It features product listings, a shopping cart, and an edit, delete, or add a product feature.",
+    gif: projectGif5,
+    link: "/projects/project5"
+  },
+    {
+    title: "Pokemon API",
+    description: "An application that allows users to search for Pokemon by name or number, built with React.",
+    gif: projectGif4,
+    link: "/projects/project4"
+  },
+    {
+    title: "E-commerce Site",
+    description: "A simple online store built with React, showcasing product listings, categories, and a shopping cart.",
+    gif: projectGif3,
+    link: "/projects/project3"
+  },
+    {
+    title: "Recreated Fan Site",
+    description: "A mock fan site for a rock and roll lovers, built with React and CSS.",
+    gif: projectGif2,
+    link: "/projects/project2"
+  },
   {
     title: "Event Center Site",
     description: "Simple website designed for an event center, showcasing HTML and CSS skills.",
     gif: projectGif1,
     link: "/projects/project1"
   },
-  {
-    title: "Recreated Fan Site",
-    description: "A mock fan site for a rock and roll lovers, built with React and CSS.",
-    gif: projectGif2,
-    link: "/projects/project2"
-  },
-  
-  {
-    title: "E-commerce Site",
-    description: "A simple online store built with React, showcasing product listings, categories, and a shopping cart.",
-    gif: projectGif3,
-    link: "/projects/project3"
-  },
- 
-  {
-    title: "Pokemon API",
-    description: "An application that allows users to search for Pokemon by name or number, built with React.",
-    gif: projectGif4,
-    link: "/projects/project4"
-  },
- 
-  {
-    title: "Fake Store App",
-    description: "Simple online store application using React. It features product listings, a shopping cart, and an edit, delete, or add a product feature.",
-    gif: projectGif5,
-    link: "/projects/project5"
-  },
-    
-  {
-    title: "Quiz App",
-    description: "A simple and interactive quiz application built with React. The app fetches multiple-choice questions of varying difficulty and topics from an external API.",
-    gif: projectGif6,
-    link: "/projects/project6"
-  },
- 
-  {
-    title: "To Do List App",
-    description: "Command line interface to do list allowing users to manage their daily tasks easily.",
-    gif: projectGif7,
-    link: "/projects/project7"
-  },
 
-  {
-    title: "Evil Wizard Game",
-    description: "A CLI turn based game where players can choose their character and battle against an evil wizard. Built with Python.",
-    gif: projectGif8,
-    link: "/projects/project8"
-  },
+
+ 
+
+ 
+
+    
+
+ 
+
+
+
      /* Uncomment and fill in more projects as needed
   {
     title: "Project Title 9",
