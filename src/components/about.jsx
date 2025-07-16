@@ -68,7 +68,7 @@ export default function About() {
         <p className="text-base md:text text-gray-800 mb-8 leading-relaxed">
           Hello! I’m <span className="font-bold text-purple-700">Angelica Reeves</span>, a passionate Full Stack Developer who enjoys building beautiful, performant web apps and solving tough backend challenges.
           <br /><br />
-          My background spans JavaScript, Python, and cybersecurity. I love creating scalable APIs and working with cloud technologies. I’m always eager to learn new skills and take on exciting projects.
+          My background spans JavaScript, Python, other programming languages, and cybersecurity. I love creating scalable APIs and working with cloud technologies. I’m always eager to learn new skills and take on exciting projects.
           <br /><br />
           Before I got into tech, I worked in the service industry, which taught me the value of hard work and customer service. Now, I bring that same dedication to my coding projects.
         </p>

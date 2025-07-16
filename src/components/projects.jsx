@@ -33,44 +33,44 @@ const projectData = [
   
   {
     title: "E-commerce Site",
-    description: "Short project description goes here. Summarize what it is, or what makes it special.",
+    description: "A simple online store built with React, showcasing product listings, categories, and a shopping cart.",
     gif: projectGif3,
-    link: "#"
+    link: "/projects/project3"
   },
  
   {
     title: "Pokemon API",
-    description: "Short project description goes here. Summarize what it is, or what makes it special.",
+    description: "An application that allows users to search for Pokemon by name or number, built with React.",
     gif: projectGif4,
-    link: "#"
+    link: "/projects/project4"
   },
  
   {
     title: "Fake Store App",
-    description: "Short project description goes here. Summarize what it is, or what makes it special.",
+    description: "Simple online store application using React. It features product listings, a shopping cart, and an edit, delete, or add a product feature.",
     gif: projectGif5,
-    link: "#"
+    link: "/projects/project5"
   },
     
   {
     title: "Quiz App",
-    description: "Short project description goes here. Summarize what it is, or what makes it special.",
+    description: "A simple and interactive quiz application built with React. The app fetches multiple-choice questions of varying difficulty and topics from an external API.",
     gif: projectGif6,
-    link: "#"
+    link: "/projects/project6"
   },
  
   {
     title: "To Do List App",
-    description: "Short project description goes here. Summarize what it is, or what makes it special.",
+    description: "Command line interface to do list allowing users to manage their daily tasks easily.",
     gif: projectGif7,
-    link: "#"
+    link: "/projects/project7"
   },
 
   {
     title: "Evil Wizard Game",
-    description: "Short project description goes here. Summarize what it is, or what makes it special.",
+    description: "A CLI turn based game where players can choose their character and battle against an evil wizard. Built with Python.",
     gif: projectGif8,
-    link: "#"
+    link: "/projects/project8"
   },
      /* Uncomment and fill in more projects as needed
   {

@@ -68,13 +68,13 @@ export default function Home() {
               Full Stack Developer <span className="text-gray-500">(Back End Focus)</span>
             </h2>
             <p className="text-gray-700 max-w-md mx-auto lg:mx-0">
-              Passionate about building scalable web applications and APIs. I specialize in JavaScript, Node.js, and cloud technologies.
+              Passionate about building robust APIs and scalable web applications. As a full stack developer with a strong back end focus, I specialize in JavaScript, Python, Node.js, and cloud technologies, while also crafting intuitive front end experiences.
             </p>
           </div>
           {/* Cards Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-2xl">
             {/* About Card */}
-            <div className="bg-white/90 border border-purple-200 shadow-xl rounded-2xl p-6 flex flex-col items-center hover:shadow-2xl transition">
+            <div className="bg-white/90 border border-purple-200 shadow-xl rounded-2xl p-6 flex flex-col items-center hover:scale-105 transition">
               <h3 className="text-lg font-bold mb-2 text-purple-700">About Me</h3>
               <p className="text-gray-600 mb-4 text-sm">
                 Experienced in JavaScript, Node.js, Python, and cloud platforms. I thrive on solving challenging problems and collaborating with creative teams.
@@ -84,7 +84,7 @@ export default function Home() {
               </Link>
             </div>
             {/* Projects Card */}
-            <div className="bg-white/90 border border-purple-200 shadow-xl rounded-2xl p-6 flex flex-col items-center hover:shadow-2xl transition">
+            <div className="bg-white/90 border border-purple-200 shadow-xl rounded-2xl p-6 flex flex-col items-center hover:scale-105 transition">
               <h3 className="text-lg font-bold mb-2 text-purple-700">Projects</h3>
               <p className="text-gray-600 mb-4 text-sm">
                 Explore my portfolio of web apps, APIs, and automation tools. I love bringing ideas to life through code!
@@ -94,7 +94,7 @@ export default function Home() {
               </Link>
             </div>
             {/* Contact Card */}
-            <div className="bg-white/90 border border-purple-200 shadow-xl rounded-2xl p-6 flex flex-col items-center hover:shadow-2xl transition">
+            <div className="bg-white/90 border border-purple-200 shadow-xl rounded-2xl p-6 flex flex-col items-center hover:scale-105 transition">
               <h3 className="text-lg font-bold mb-2 text-purple-700">Get in Touch</h3>
               <p className="text-gray-600 mb-4 text-sm">
                 Interested in working together or just want to connect? I’d love to hear from you!
@@ -104,7 +104,7 @@ export default function Home() {
               </Link>
             </div>
             {/* Certifications Card */}
-            <div className="bg-white/90 border border-purple-200 shadow-xl rounded-2xl p-6 flex flex-col items-center hover:shadow-2xl transition">
+            <div className="bg-white/90 border border-purple-200 shadow-xl rounded-2xl p-6 flex flex-col items-center hover:scale-105 transition">
               <h3 className="text-lg font-bold mb-2 text-purple-700">Certifications</h3>
               <p className="text-gray-600 mb-4 text-sm">
                 I hold several certifications in web development and cloud technologies.

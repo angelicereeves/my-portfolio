@@ -2,47 +2,38 @@ import React from "react";
 
 const certifications = [
   {
-    title: "AWS Certified Solutions Architect",
-    issuer: "Amazon Web Services",
-    date: "June 2024",
-    icon: "☁️",
-    link: "#"
-  },
-  {
-    title: "Google Associate Cloud Engineer",
-    issuer: "Google Cloud",
+    title: "Google Cybersecurity Professional Certificate",
+    issuer: "Google",
     date: "March 2024",
     icon: "🌐",
     link: "#"
   },
+
   {
-    title: "Certified ScrumMaster",
-    issuer: "Scrum Alliance",
-    date: "January 2024",
-    icon: "🏆",
+    title: "title",
+    issuer: "issuer",
+    date: "date",
+    icon: "☁️",
     link: "#"
   },
+
   {
-    title: "Microsoft Azure Fundamentals",
-    issuer: "Microsoft",
-    date: "August 2023",
-    icon: "🔷",
+    title: "title",
+    issuer: "issuer",
+    date: "date",
+    icon: "☁️",
     link: "#"
   },
+
   {
-    title: "Meta Front-End Developer",
-    issuer: "Meta",
-    date: "May 2023",
-    icon: "💻",
+    title: "title",
+    issuer: "issuer",
+    date: "date",
+    icon: "☁️",
     link: "#"
   },
-  {
-    title: "Udemy Modern React Bootcamp",
-    issuer: "Udemy",
-    date: "April 2023",
-    icon: "📚",
-    link: "#"
-  },
+
+
 ];
 
 export default function Certifications() {
