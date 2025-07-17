@@ -11,13 +11,19 @@ import projectGif5 from "../assets/images/fakestore.gif";
 import projectGif6 from "../assets/images/quizapp.gif";
 import projectGif7 from "../assets/images/todolist.gif";
 import projectGif8 from "../assets/images/evilwizard.gif";
-//import projectGif9 from "../assets/images/project9.gif";
+import projectGif9 from "../assets/images/project9.gif";
 //import projectGif10 from "../assets/images/project10.gif";
 //import projectGif11 from "../assets/images/project11.gif";
 //import projectGif12 from "../assets/images/project12.gif";
 
 // Array of project data with gif references
 const projectData = [
+    {
+    title: "Scooby Doo Battle Game",
+    description: "A multi-player turn based game based on the Scooby Doo universe. Players can choose their character and unmask the masked villan. Built with Python.",
+    gif: projectGif9,
+    link: "/projects/project9"
+  },
     {
     title: "Evil Wizard Game",
     description: "A CLI turn based game where players can choose their character and battle against an evil wizard. Built with Python.",
@@ -79,12 +85,6 @@ const projectData = [
 
 
      /* Uncomment and fill in more projects as needed
-  {
-    title: "Project Title 9",
-    description: "Short project description goes here. Summarize what it is, or what makes it special.",
-    gif: projectGif9,
-    link: "#"
-  },
   {
     title: "Project Title 10",
     description: "Short project description goes here. Summarize what it is, or what makes it special.",

@@ -1,11 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import googleCert from "../assets/images/google_certification.jpg";
 
 const certifications = [
   {
     title: "Google Cybersecurity Professional Certificate",
     issuer: "Google",
-    date: "March 2024",
-    icon: "🌐",
+    date: "March 2025",
+    Image: googleCert,
+    link: "/certifications/google-certification",
+  }, 
+  
+  {
+    title: "title",
+    issuer: "issuer",
+    date: "date",
+    Image: "",
     link: "#"
   },
 
@@ -13,7 +23,7 @@ const certifications = [
     title: "title",
     issuer: "issuer",
     date: "date",
-    icon: "☁️",
+    Image: "",
     link: "#"
   },
 
@@ -21,15 +31,7 @@ const certifications = [
     title: "title",
     issuer: "issuer",
     date: "date",
-    icon: "☁️",
-    link: "#"
-  },
-
-  {
-    title: "title",
-    issuer: "issuer",
-    date: "date",
-    icon: "☁️",
+    Image: "",
     link: "#"
   },
 
@@ -51,7 +53,7 @@ export default function Certifications() {
               className="bg-white/90 rounded-2xl shadow-md hover:shadow-lg transition p-6 flex flex-col"
             >
               <div className="bg-purple-200 rounded-xl h-28 mb-4 flex items-center justify-center">
-                <span className="text-4xl text-purple-700">{cert.icon}</span>
+                <img src={cert.Image} alt={cert.title} className="h-full object-contain" />
               </div>
               <h2 className="text-xl font-bold text-purple-800 mb-1">{cert.title}</h2>
               <p className="text-gray-700 mb-1">{cert.issuer}</p>

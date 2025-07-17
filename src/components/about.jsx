@@ -7,7 +7,7 @@ import travelPic from "../assets/images/travel.jpg";
 const images = [
   { src: profileImg, alt: "Angelica" },
   { src: vicsPic, alt: "Angelica serving drinks" },
-  { src: travelPic, alt: "Angelica in Italy" },
+  { src: travelPic, alt: "Pictured Rocks Park" },
   { src: vicPic, alt: "Angelica working" },
 ];
 
@@ -17,6 +17,9 @@ const skills = [
   "React",
   "Node.js",  
   "SQL",
+  "CSS",
+  "HTML",
+  "Linux",
   "Tailwind",
   "Git",
 ];
@@ -68,9 +71,9 @@ export default function About() {
         <p className="text-base md:text text-gray-800 mb-8 leading-relaxed">
           Hello! I’m <span className="font-bold text-purple-700">Angelica Reeves</span>, a passionate Full Stack Developer who enjoys building beautiful, performant web apps and solving tough backend challenges.
           <br /><br />
-          My background spans JavaScript, Python, other programming languages, and cybersecurity. I love creating scalable APIs and working with cloud technologies. I’m always eager to learn new skills and take on exciting projects.
+          My background spans Python, JavaScript, CSS, React, and cybersecurity and more. I love creating scalable APIs and working with cloud technologies. I’m always eager to learn new skills and take on exciting projects.
           <br /><br />
-          Before I got into tech, I worked in the service industry, which taught me the value of hard work and customer service. Now, I bring that same dedication to my coding projects.
+          Before I got into tech, I worked in the service industry, which taught me the value of hard work, good communication skills, customer service, and teamwork. Now, I bring that same dedication to my coding projects.
         </p>
         <h2 className="text-lg md:text-xl font-semibold text-purple-700 mb-3 mt-4">Skills &amp; Technologies</h2>
         <div className="flex flex-wrap gap-3 mb-8">
