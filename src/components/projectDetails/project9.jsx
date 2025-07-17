@@ -40,7 +40,7 @@ export default function Project9() {
           </div>
           <div className="flex justify-center">
             <a
-              href="https://github.com/angelicereeves/evil-wizard-game"
+              href="https://github.com/angelicereeves/Scooby-Doo"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-4 py-2 bg-purple-700 text-white font-semibold rounded-md shadow hover:bg-purple-600 transition text-sm"

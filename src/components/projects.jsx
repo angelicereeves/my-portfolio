@@ -117,9 +117,9 @@ export default function Projects() {
         </p>
         {/* Grid of project cards */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {projectData.map((project, idx) => (
+          {projectData.map((project, index) => (
             <div
-              key={idx}
+              key={index}
               className="bg-white/90 rounded-2xl shadow-md hover:shadow-lg transition p-6 flex flex-col"
             >
               <div className="bg-purple-200 rounded-xl h-44 mb-4 flex items-center justify-center overflow-hidden">

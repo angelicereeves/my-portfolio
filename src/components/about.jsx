@@ -22,6 +22,11 @@ const skills = [
   "Linux",
   "Tailwind",
   "Git",
+  "Cybersecurity",
+  "APIs",
+  "Cloud Technologies",
+  "Incident Response",
+  "Threat Detection",
 ];
 
 function ImageCarousel() {
@@ -36,24 +41,24 @@ function ImageCarousel() {
 
   return (
     <div className="relative w-full h-[220px] sm:h-[300px] md:h-[380px] lg:h-[520px] flex items-center justify-center">
-      {images.map((img, idx) => (
+      {images.map((img, index) => (
         <img
-          key={idx}
+          key={index}
           src={img.src}
           alt={img.alt}
           className={`absolute w-full h-full object-cover rounded-2xl shadow-xl border-4 border-white transition-all duration-700
-            ${idx === current ? "opacity-100 scale-100 z-20" : "opacity-0 scale-95 z-10"}`}
+            ${index === current ? "opacity-100 scale-100 z-20" : "opacity-0 scale-95 z-10"}`}
         />
       ))}
       <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
-        {images.map((_, idx) => (
+        {images.map((_, index) => (
           <button
-            key={idx}
-            onClick={() => setCurrent(idx)}
+            key={index}
+            onClick={() => setCurrent(index)}
             className={`w-3 h-3 rounded-full transition bg-purple-400 ${
-              current === idx ? "scale-125 bg-purple-700" : "opacity-50"
+              current === index ? "scale-125 bg-purple-700" : "opacity-50"
             }`}
-            aria-label={`Go to image ${idx + 1}`}
+            aria-label={`Go to image ${index + 1}`}
           />
         ))}
       </div>
