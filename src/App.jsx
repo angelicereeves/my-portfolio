@@ -15,6 +15,7 @@ import Project7 from "./components/projectDetails/project7";
 import Project8 from "./components/projectDetails/project8";
 import Project9 from "./components/projectDetails/project9";
 import Project10 from "./components/projectDetails/project10";
+import Project11 from "./components/projectDetails/project11";
 import GoogleCert from "./components/certificationDetails/google-cert";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
             <Route path="/projects/project8" element={<Project8 />} />
             <Route path="/projects/project9" element={<Project9 />} />
             <Route path="/projects/project10" element={<Project10 />} />
+            <Route path="/projects/project11" element={<Project11 />} />
             <Route path="/certifications/google-certification" element={<GoogleCert />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/contact" element={<Contact />} />
