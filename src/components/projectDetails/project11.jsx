@@ -1,5 +1,5 @@
 import React from "react";
-import project10Video from "../../assets/images/project11video.mp4";
+import project11Video from "../../assets/images/project11video.mp4";
 
 const skills = [
   "React",
@@ -14,7 +14,7 @@ export default function Project10() {
         {/* Left: Video */}
         <div className="flex-1 flex items-center justify-center bg-purple-100 min-h-[350px] md:min-h-[500px]">
           <video
-            src={project10Video}
+            src={project11Video}
             controls
             className="w-full h-[350px] md:h-[500px] object-contain rounded-xl shadow-xl"
             poster=""

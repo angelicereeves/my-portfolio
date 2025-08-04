@@ -14,12 +14,18 @@ import projectGif8 from "../assets/images/evilwizard.gif";
 import projectGif9 from "../assets/images/project9.gif";
 import projectGif10 from "../assets/images/project10.gif";
 import projectGif11 from "../assets/images/project11.gif";
-//import projectGif12 from "../assets/images/project12.gif";
+import projectGif12 from "../assets/images/project12.gif";
 
-// Array of project data with gif references
+// Project data array
 const projectData = [
+        {
+      title: "Vic's Training App",
+      description: "Built with React for a restaurant, this project showcases a virtual training environment for users to improve their skills.",
+      gif: projectGif12,
+      link: "/projects/project12"
+    },
       {
-      title: "Project Title 11",
+      title: "Explore Mauritius",
       description: "Built with React, this project showcases a virtual tour of Mauritius, highlighting its beautiful landscapes, culture, and attractions.",
       gif: projectGif11,
       link: "/projects/project11"
@@ -96,20 +102,7 @@ const projectData = [
 
 
 
-     /* Uncomment and fill in more projects as needed
 
-    {
-      title: "Project Title 11",
-      description: "Short project description goes here. Summarize what it is, or what makes it special.",
-      gif: projectGif11,
-      link: "#"
-    },
-  {
-    title: "Project Title 12",
-    description: "Short project description goes here. Summarize what it is, or what makes it special.",
-    gif: projectGif12,
-    link: "#"
-  },*/
 ];
 
 export default function Projects() {

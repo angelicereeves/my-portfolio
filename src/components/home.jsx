@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import eappGif from '../assets/images/eapp.gif';
-import scrollcodeOriginalGif from '../assets/images/scrollcode_original.gif';
-import rocknrollGif from '../assets/images/rocknroll.gif';
+import MauritiusGif from '../assets/images/project11.gif';
+import VicsGif from '../assets/images/project12.gif';
+import ScoobyDooGif from '../assets/images/project9.gif';
 
 // List your GIFs and their durations (in seconds)
 const gifData = [
-  { src: scrollcodeOriginalGif, alt: "Scrolling code animation", duration: 3.5 },
-  { src: eappGif, alt: "Eapp animation", duration: 2.7 },
-  { src: rocknrollGif, alt: "Rock n Roll Website animation", duration: 4.2 },
+  { src: VicsGif, alt: "Vic's Training App", duration: 3.5, },
+  { src: MauritiusGif, alt: "Moving to Mauritius", duration: 2.7 },
+  { src: ScoobyDooGif, alt: "Scooby Doo Game", duration: 4.2 },
 ];
 
 export default function Home() {
@@ -33,31 +33,33 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-br from-white via-purple-100 to-purple-300 flex items-center px-12">
       <div className="max-w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-12">
         {/* LEFT: GIFs in 2 columns, larger sizes */}
-        <div className="flex w-full max-w-2xl h-[700px]">
+        <div className="flex w-full max-w-2xl">
           {/* Column 1 */}
-          <div className="flex flex-col justify-between flex-1">
-            {/* Top GIF */}
-            <img
-              src={gifData[order[0]].src}
-              alt={gifData[order[0]].alt}
-              className="w-[300px] rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 mb-2"
-            />
-            {/* Bottom GIF */}
-            <img
-              src={gifData[order[1]].src}
-              alt={gifData[order[1]].alt}
-              className="w-[300px] h-[350px] rounded-2xl shadow-2xl mb-2 hover:scale-105 transition-transform duration-300"
-            />
-          </div>
-          {/* Column 2 */}
-          <div className="flex flex-col justify-center items-center flex-1 hover:scale-105 transition-transform duration-300">
-            {/* Middle GIF */}
-            <img
-              src={gifData[order[2]].src}
-              alt={gifData[order[2]].alt}
-              className="w-[350px] h-[350px] rounded-2xl shadow-2xl"
-            />
-          </div>
+          <div className="flex w-full max-w-2xl">
+  {/* Column 1 (Left side) */}
+  <div className="flex flex-col justify-between flex-1 items-center">
+    <img
+      src={gifData[order[0]].src}
+      alt={gifData[order[0]].alt}
+      className="w-[320px] h-[250px] object-cover rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 mb-4"
+    />
+    <img
+      src={gifData[order[1]].src}
+      alt={gifData[order[1]].alt}
+      className="w-[320px] h-[250px] object-cover rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300"
+    />
+  </div>
+
+  {/* Column 2 (Right side) */}
+  <div className="flex flex-col justify-center items-center flex-1">
+    <img
+      src={gifData[order[2]].src}
+      alt={gifData[order[2]].alt}
+      className="w-[320px] h-[250px] object-cover rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300"
+    />
+  </div>
+</div>
+
         </div>
         {/* RIGHT: Cards and Info */}
         <div className="flex flex-col items-center lg:items-start w-full px-2">
