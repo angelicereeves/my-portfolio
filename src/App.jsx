@@ -18,6 +18,12 @@ import Project10 from "./components/projectDetails/project10";
 import Project11 from "./components/projectDetails/project11";
 import Project12 from "./components/projectDetails/project12";
 import GoogleCert from "./components/certificationDetails/google-cert";
+import HTMLCert from "./components/certificationDetails/html-cert";
+import JSFrameworks from "./components/certificationDetails/jsframeworks";
+import AdvJSReact from "./components/certificationDetails/advJSReact";
+import SinglePageReactApps from "./components/certificationDetails/singlepagereact";
+import IntroPython from "./components/certificationDetails/intropython";
+import AdvPython from "./components/certificationDetails/advPython";
 
 function App() {
   return (
@@ -43,6 +49,12 @@ function App() {
             <Route path="/projects/project11" element={<Project11 />} />
             <Route path="/projects/project12" element={<Project12 />} />
             <Route path="/certifications/google-certification" element={<GoogleCert />} />
+            <Route path="/certifications/html-certification" element={<HTMLCert />} />
+            <Route path="/certifications/js-frameworks" element={<JSFrameworks />} />
+            <Route path="/certifications/adv-js-react" element={<AdvJSReact />} />
+            <Route path="/certifications/single-page-react-apps" element={<SinglePageReactApps />} />
+            <Route path="/certifications/foundations-of-python" element={<IntroPython />} />
+            <Route path="/certifications/adv-python" element={<AdvPython />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

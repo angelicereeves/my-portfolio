@@ -22,7 +22,7 @@ const certifications = [
     issuer: "Coding Temple",
     date: "May 2025",
     Image: htmlcsscert,
-    link: "https://www.credential.net/3d25e987-11af-464d-83b2-dc76fdeb9abb#acc.mSjqoGcg"
+    link: "/certifications/html-certification"
   },
 
   {
@@ -30,7 +30,7 @@ const certifications = [
     issuer: "Coding Temple",
     date: "May 2025",
     Image: javascriptCert,
-    link: "https://www.credential.net/baa4deb0-adc3-4707-8cd6-976574847201#acc.zAcltQuJ"
+    link: "/certifications/js-frameworks"
   },
 
   {
@@ -38,28 +38,28 @@ const certifications = [
     issuer: "Coding Temple",
     date: "June 2025",
     Image: AdvJSReact,
-    link: "https://www.credential.net/b25f6793-7941-44c8-9642-6119ca6c2980#acc.4iR6oCqc"
+    link: "/certifications/adv-js-react"
   },
     {
     title: "Single Page Applications with React",
     issuer: "Coding Temple",
     date: "June 2025",
     Image: Reactimg,
-    link: "https://www.credential.net/68f349b1-3bb8-4ed9-94b3-ce94013fc220#acc.5BT4JdjM"
+    link: "/certifications/single-page-react-apps"
   },
   {
     title: "Foundations of Python",
     issuer: "Coding Temple",
     date: "July 2025",
     Image: Pythonimg,
-    link: "https://www.credential.net/6bc4665a-851b-4f09-b70b-f04aafd3c815#acc.dZ0xMnbR"
+    link: "/certifications/foundations-of-python"
   },
   {
     title: "Advanced Python",
     issuer: "Coding Temple",
     date: "July 2025",
     Image: AdvPython,
-    link: "https://www.credential.net/5a8f1be4-e621-48d1-8a46-9af52dc818b5#acc.fAmBCEvF"
+    link: "/certifications/adv-python"
   }
 
 
