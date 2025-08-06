@@ -74,11 +74,10 @@ export default function About() {
         {/* Removed max-w-2xl below */}
         <h1 className="text-3xl md:text-4xl font-extrabold text-purple-800 mb-4 drop-shadow">About Me</h1>
         <p className="text-base md:text text-gray-800 mb-8 leading-relaxed">
-          Hello! I’m <span className="font-bold text-purple-700">Angelica Reeves</span>, a passionate Full Stack Developer who enjoys building beautiful, performant web apps and solving tough backend challenges.
-          <br /><br />
-          My background spans Python, JavaScript, CSS, React, and cybersecurity and more. I love creating scalable APIs and working with cloud technologies. I’m always eager to learn new skills and take on exciting projects.
-          <br /><br />
-          Before I got into tech, I worked in the service industry, which taught me the value of hard work, good communication skills, customer service, and teamwork. Now, I bring that same dedication to my coding projects.
+          Hey there! I’m Angelica Reeves, a Full Stack Developer with a love for crafting web apps that are as beautiful as they are functional. I work across the full development stack — from Python and JavaScript to CSS, React, and cloud platforms — to create seamless, engaging user experiences.
+
+<br />Before coding, I spent years in the service industry, learning the value of hard work, adaptability, and putting people first. Those same qualities now drive how I approach every project: with creativity, empathy, and a focus on building solutions that truly make an impact.
+
         </p>
         <h2 className="text-lg md:text-xl font-semibold text-purple-700 mb-3 mt-4">Skills &amp; Technologies</h2>
         <div className="flex flex-wrap gap-3 mb-8">
@@ -91,19 +90,7 @@ export default function About() {
             </span>
           ))}
         </div>
-        <div className="text-base md:text text-gray-700 mb-8">
-          <p>
-            When I’m not coding, you’ll find me exploring nature, hanging out with my dogs, playing the guitar, tasting wines, and traveling around the world.
-          </p>
-        </div>
-        <div>
-          <a
-            href="/contact"
-            className="inline-block mt-2 px-6 py-2 rounded-lg text-white bg-gradient-to-r from-purple-600 via-purple-500 to-purple-700 font-bold shadow hover:from-purple-700 hover:to-purple-800 hover:scale-105 transition"
-          >
-            Contact me!
-          </a>
-        </div>
+
       </section>
       {/* Right Side: Carousel */}
       <section className="flex-1 flex items-center justify-center overflow-hidden px-10">

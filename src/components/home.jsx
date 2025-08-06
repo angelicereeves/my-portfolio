@@ -30,7 +30,7 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-br from-white via-purple-100 to-purple-300 flex flex-col lg:flex-row items-center px-4 sm:px-6 lg:px-12 py-12 gap-12">
       
       {/* LEFT: Rotating GIFs in a responsive 2x2 grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 w-full max-w-2xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 w-full max-w-3xl mx-auto">
         {order.map((i, index) => (
           <img
             key={index}
@@ -48,10 +48,10 @@ export default function Home() {
         <div className="mb-8 text-center lg:text-left">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-1">Angelica Reeves</h1>
           <h2 className="text-xl md:text-2xl text-purple-700 font-semibold mb-2">
-            Full Stack Developer <span className="text-gray-500">(Back End Focus)</span>
+            Full Stack Developer
           </h2>
           <p className="text-gray-700 max-w-md mx-auto lg:mx-0">
-            Passionate about building robust APIs and scalable web applications. As a full stack developer with a strong back end focus, I specialize in JavaScript, Python, Node.js, and cloud technologies, while also crafting intuitive front end experiences.
+            I build web applications that combine functionality, performance, and great design. As a full stack developer, I leverage JavaScript, Python, Node.js, and cloud technologies to deliver seamless, responsive, and impactful digital solutions.
           </p>
         </div>
 
