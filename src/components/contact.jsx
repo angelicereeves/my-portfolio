@@ -27,7 +27,7 @@ export default function Contact() {
             {
               icon: <FaLinkedin className="text-2xl text-purple-700" />,
               text: "LinkedIn",
-              href: "https://www.linkedin.com/in/angelica-reeves/",
+              href: "https://www.linkedin.com/in/angelica-reeves-461350365/",
             },
             {
               icon: <FaGithub className="text-2xl text-purple-700" />,
