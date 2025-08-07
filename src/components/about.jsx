@@ -74,7 +74,7 @@ export default function About() {
         {/* Removed max-w-2xl below */}
         <h1 className="text-3xl md:text-4xl font-extrabold text-purple-800 mb-4 drop-shadow">About Me</h1>
         <p className="text-base md:text text-gray-800 mb-8 leading-relaxed">
-          Hey there! I’m Angelica Reeves, a Full Stack Developer with a love for crafting web apps that are as beautiful as they are functional. I work across the full development stack — from Python and JavaScript to CSS, React, and cloud platforms — to create seamless, engaging user experiences.
+          Hey there! I’m Angelica Reeves, a Full Stack Developer with a love for crafting web apps that are as beautiful as they are functional. I work across the full development stack — from Python and JavaScript to CSS, React, and cloud platforms, as well as some cybersecurity topics, — to create seamless, engaging user experiences.
 
 <br />Before coding, I spent years in the service industry, learning the value of hard work, adaptability, and putting people first. Those same qualities now drive how I approach every project: with creativity, empathy, and a focus on building solutions that truly make an impact.
 

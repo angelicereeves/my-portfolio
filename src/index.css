@@ -7,6 +7,10 @@
   font-family: 'Poppins', sans-serif;
   color: #a21caf;
 }
+/* index.css */
+html, body {
+  overflow-x: hidden;
+}
 
 
 :root {

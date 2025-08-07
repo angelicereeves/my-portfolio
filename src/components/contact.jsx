@@ -8,29 +8,29 @@ export default function Contact() {
         <h1 className="text-5xl font-extrabold text-purple-800 mb-2 mt-0 md:mt-1 md:mb-1 text-left">
           Contact Me
         </h1>
-        <p className="text-2xl text-purple-900 font-medium mb-2 max-w-xl text-left">
+        <p className="text-2xl text-black font-medium mb-2 max-w-xl text-left">
           I'd love to hear from you! Reach out for projects, collaborations, or just to connect.
         </p>
 
         <div className="flex flex-col gap-5">
           {[
             {
-              icon: <FaEnvelope className="text-2xl text-purple-700" />,
+              icon: <FaEnvelope className="text-2xl text-red-500" />,
               text: "angelica.a.j.reeves@gmail.com",
               href: "mailto:angelica.a.j.reeves@gmail.com",
             },
             {
-              icon: <FaPhoneAlt className="text-2xl text-purple-700" />,
+              icon: <FaPhoneAlt className="text-2xl text-green-500" />,
               text: "(702) 677-2556",
               href: "tel:7026772556",
             },
             {
-              icon: <FaLinkedin className="text-2xl text-purple-700" />,
+              icon: <FaLinkedin className="text-2xl text-blue-600" />,
               text: "LinkedIn",
               href: "https://www.linkedin.com/in/angelica-reeves-461350365/",
             },
             {
-              icon: <FaGithub className="text-2xl text-purple-700" />,
+              icon: <FaGithub className="text-2xl text-black" />,
               text: "GitHub",
               href: "https://github.com/angelicereeves",
             },
