@@ -21,8 +21,8 @@ export default function Contact() {
             },
             {
               icon: <FaPhoneAlt className="text-2xl text-green-500" />,
-              text: "(702) 677-2556",
-              href: "tel:7026772556",
+              text: "+(355) 69 604 1548",
+              href: "tel:355696041548",
             },
             {
               icon: <FaLinkedin className="text-2xl text-blue-600" />,

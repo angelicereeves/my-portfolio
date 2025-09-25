@@ -8,6 +8,7 @@ import Reactimg from "../assets/images/react.png";
 import Pythonimg from "../assets/images/python.png";
 import AdvPython from "../assets/images/advpython.png";
 import RelationalDB from "../assets/images/relationalDB.png";
+import FrontendFoundations from "../assets/images/frontendFoundations.png";
 
 const certifications = [
   {
@@ -68,7 +69,14 @@ const certifications = [
     date: "August 2025",
     Image: RelationalDB,
     link: "/certifications/relationalDB"
-  }
+  },
+  {
+    title: "Frontend Foundations",
+    issuer: "Coding Temple",
+    date: "September 2025",
+    Image: FrontendFoundations,
+    link: "/certifications/frontendFoundations"
+  },
 
 
 ];

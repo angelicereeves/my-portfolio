@@ -17,6 +17,8 @@ import Project9 from "./components/projectDetails/project9";
 import Project10 from "./components/projectDetails/project10";
 import Project11 from "./components/projectDetails/project11";
 import Project12 from "./components/projectDetails/project12";
+import AdvancedEcommerce from './components/projectDetails/advancedEcomerce';
+import TaskManagementApp from './components/projectDetails/taskManagementApp';
 import GoogleCert from "./components/certificationDetails/google-cert";
 import HTMLCert from "./components/certificationDetails/html-cert";
 import JSFrameworks from "./components/certificationDetails/jsframeworks";
@@ -25,6 +27,7 @@ import SinglePageReactApps from "./components/certificationDetails/singlepagerea
 import IntroPython from "./components/certificationDetails/intropython";
 import AdvPython from "./components/certificationDetails/advPython";
 import RelationalDB from "./components/certificationDetails/relationalDB";
+import FrontendFoundations from "./components/certificationDetails/frontendFoundations";
 
 function App() {
   return (
@@ -49,6 +52,8 @@ function App() {
             <Route path="/projects/project10" element={<Project10 />} />
             <Route path="/projects/project11" element={<Project11 />} />
             <Route path="/projects/project12" element={<Project12 />} />
+            <Route path="/projects/advancedEcommerce" element={<AdvancedEcommerce />} />
+            <Route path="/projects/taskManagementApp" element={<TaskManagementApp />} />
             <Route path="/certifications/google-certification" element={<GoogleCert />} />
             <Route path="/certifications/html-certification" element={<HTMLCert />} />
             <Route path="/certifications/js-frameworks" element={<JSFrameworks />} />
@@ -57,6 +62,7 @@ function App() {
             <Route path="/certifications/foundations-of-python" element={<IntroPython />} />
             <Route path="/certifications/adv-python" element={<AdvPython />} />
             <Route path="/certifications/relationalDB" element={<RelationalDB />} />
+            <Route path="/certifications/frontendFoundations" element={<FrontendFoundations />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
