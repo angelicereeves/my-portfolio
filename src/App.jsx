@@ -24,6 +24,7 @@ import AdvJSReact from "./components/certificationDetails/advJSReact";
 import SinglePageReactApps from "./components/certificationDetails/singlepagereact";
 import IntroPython from "./components/certificationDetails/intropython";
 import AdvPython from "./components/certificationDetails/advPython";
+import RelationalDB from "./components/certificationDetails/relationalDB";
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
             <Route path="/certifications/single-page-react-apps" element={<SinglePageReactApps />} />
             <Route path="/certifications/foundations-of-python" element={<IntroPython />} />
             <Route path="/certifications/adv-python" element={<AdvPython />} />
+            <Route path="/certifications/relationalDB" element={<RelationalDB />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

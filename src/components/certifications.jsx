@@ -7,6 +7,7 @@ import AdvJSReact from "../assets/images/advancedjsreact.png";
 import Reactimg from "../assets/images/react.png";
 import Pythonimg from "../assets/images/python.png";
 import AdvPython from "../assets/images/advpython.png";
+import RelationalDB from "../assets/images/relationalDB.png";
 
 const certifications = [
   {
@@ -60,6 +61,13 @@ const certifications = [
     date: "July 2025",
     Image: AdvPython,
     link: "/certifications/adv-python"
+  },
+  {
+    title: "Relational Databases and REST API Development",
+    issuer: "Coding Temple",
+    date: "August 2025",
+    Image: RelationalDB,
+    link: "/certifications/relationalDB"
   }
 
 
