@@ -69,7 +69,11 @@ function ImageCarousel() {
 export default function About() {
   return (
     <main className="flex flex-col md:flex-row items-stretch min-h-screen w-full bg-gradient-to-br from-purple-50 via-white to-purple-200">
-      {/* Left Side: Text */}
+            {/* left Side: Carousel */}
+      <section className="flex-1 flex items-center justify-center overflow-hidden px-10">
+        <ImageCarousel />
+      </section>
+      {/* right Side: Text */}
       <section className="flex-1 h-full flex flex-col justify-center px-4 md:px-12 lg:px-20 py-8 md:py-12">
         {/* Removed max-w-2xl below */}
         <h1 className="text-3xl md:text-4xl font-extrabold text-purple-800 mb-4 drop-shadow">About Me</h1>
@@ -92,10 +96,7 @@ export default function About() {
         </div>
 
       </section>
-      {/* Right Side: Carousel */}
-      <section className="flex-1 flex items-center justify-center overflow-hidden px-10">
-        <ImageCarousel />
-      </section>
+
     </main>
   );
 }

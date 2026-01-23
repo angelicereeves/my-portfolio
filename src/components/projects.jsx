@@ -15,11 +15,13 @@ import projectGif11 from "../assets/images/project11.gif";
 import projectGif12 from "../assets/images/project12.gif";
 import advancedEcommerce from "../assets/images/advanced-ecommerce.gif";
 import taskManagementApp from "../assets/images/taskManagementApp.gif";
+import firebaseEcommerce from "../assets/images/ecommerceFirebase.gif";
 
 const projectData = [
+  { title: "Vic's Training App", description: "Built with React for a restaurant, this project showcases a virtual training environment for users to improve their skills.", gif: projectGif12, link: "/projects/project12" },
+  { title: "Firebase E-commerce", description: "An e-commerce platform built with React and Firebase, featuring real-time product management, secure authentication, Firestore database integration, and Stripe-powered checkout for seamless transactions.", gif: firebaseEcommerce,  link: "/projects/firebaseEcommerce"},
   { title: "Task Management App",  description: "Built with React and React Bootstrap, this project showcases a task management system featuring secure authentication with Auth0, full CRUD functionality, and a responsive, user-friendly interface.", gif: taskManagementApp, link: "/projects/taskManagementApp"},
   { title: "React Query FakeStore", description: "Built with React and React Query, this project showcases an e-commerce storefront powered by the FakeStore API, demonstrating real-time data fetching, state management, and dynamic product displays.", gif: advancedEcommerce, link: "/projects/advancedEcommerce"},
-  { title: "Vic's Training App", description: "Built with React for a restaurant, this project showcases a virtual training environment for users to improve their skills.", gif: projectGif12, link: "/projects/project12" },
   { title: "Explore Mauritius", description: "Built with React, this project showcases a virtual tour of Mauritius, highlighting its beautiful landscapes, culture, and attractions.", gif: projectGif11, link: "/projects/project11" },
   { title: "Harry Potter Sorting Quiz", description: "Built with React, this interactive quiz allows users to answer questions and get sorted into one of the four Hogwarts houses.", gif: projectGif10, link: "/projects/project10" },
   { title: "Scooby Doo Battle Game", description: "A multi-player turn based game based on the Scooby Doo universe. Players can choose their character and unmask the masked villan. Built with Python.", gif: projectGif9, link: "/projects/project9" },

@@ -9,59 +9,63 @@ import Pythonimg from "../assets/images/python.png";
 import AdvPython from "../assets/images/advpython.png";
 import RelationalDB from "../assets/images/relationalDB.png";
 import FrontendFoundations from "../assets/images/frontendFoundations.png";
+import CompletionCertificate from "../assets/images/completioncertificate.png";
+import FrontendCore from "../assets/images/frontendCore.png";
+import BackendSpecialistBadge from "../assets/images/backendSpecialist.png";
+import BackendCoreBadge from "../assets/images/backendCore.png";
+import FrontendSpecialistBadge from "../assets/images/frontendSpecialist.png";
+
+
 
 const certifications = [
   {
-    title: "Google Cybersecurity Professional Certificate",
-    issuer: "Google",
-    date: "March 2025",
-    Image: googleCert,
-    link: "/certifications/google-certification",
-  }, 
-  
-  {
-    title: "HTML & CSS Fundamentals",
-    issuer: "Coding Temple",
-    date: "May 2025",
-    Image: htmlcsscert,
-    link: "/certifications/html-certification"
+  title: "Software Engineering Certificate",
+  issuer: "Coding Temple",
+  date: "November 2025",
+  Image: CompletionCertificate,
+  link: "/certifications/completion"
   },
 
   {
-    title: "JavaScript Frameworks",
-    issuer: "Coding Temple",
-    date: "May 2025",
-    Image: javascriptCert,
-    link: "/certifications/js-frameworks"
-  },
+  title: "Back-End Specialization",
+  issuer: "Coding Temple",
+  date: "November 2025",
+  Image: BackendSpecialistBadge,
+  link: "/certifications/backendSpecialist"
+},
+
+{
+  title: "Backend Core",
+  issuer: "Coding Temple",
+  date: "November 2025",
+  Image: BackendCoreBadge,
+  link: "/certifications/backend-core"
+},
+
+{
+  title: "Frontend Specialist",
+  issuer: "Coding Temple",
+  date: "November 2025",
+  Image: FrontendSpecialistBadge,
+  link: "/certifications/frontend-specialist"
+},
+
+
+{
+  title: "Frontend Core",
+  issuer: "Coding Temple",
+  date: "November 2025",
+  Image: FrontendCore,
+  link: "/certifications/frontendCore"
+},
+
 
   {
-    title: "Advanced JavaScript and React",
+    title: "Frontend Foundations",
     issuer: "Coding Temple",
-    date: "June 2025",
-    Image: AdvJSReact,
-    link: "/certifications/adv-js-react"
-  },
-    {
-    title: "Single Page Applications with React",
-    issuer: "Coding Temple",
-    date: "June 2025",
-    Image: Reactimg,
-    link: "/certifications/single-page-react-apps"
-  },
-  {
-    title: "Foundations of Python",
-    issuer: "Coding Temple",
-    date: "July 2025",
-    Image: Pythonimg,
-    link: "/certifications/foundations-of-python"
-  },
-  {
-    title: "Advanced Python",
-    issuer: "Coding Temple",
-    date: "July 2025",
-    Image: AdvPython,
-    link: "/certifications/adv-python"
+    date: "September 2025",
+    Image: FrontendFoundations,
+    link: "/certifications/frontendFoundations"
   },
   {
     title: "Relational Databases and REST API Development",
@@ -71,15 +75,58 @@ const certifications = [
     link: "/certifications/relationalDB"
   },
   {
-    title: "Frontend Foundations",
+    title: "Advanced Python",
     issuer: "Coding Temple",
-    date: "September 2025",
-    Image: FrontendFoundations,
-    link: "/certifications/frontendFoundations"
+    date: "July 2025",
+    Image: AdvPython,
+    link: "/certifications/adv-python"
   },
-
-
+  {
+    title: "Foundations of Python",
+    issuer: "Coding Temple",
+    date: "July 2025",
+    Image: Pythonimg,
+    link: "/certifications/foundations-of-python"
+  },
+  {
+    title: "Single Page Applications with React",
+    issuer: "Coding Temple",
+    date: "June 2025",
+    Image: Reactimg,
+    link: "/certifications/single-page-react-apps"
+  },
+  {
+    title: "Advanced JavaScript and React",
+    issuer: "Coding Temple",
+    date: "June 2025",
+    Image: AdvJSReact,
+    link: "/certifications/adv-js-react"
+  },
+  {
+    title: "JavaScript Frameworks",
+    issuer: "Coding Temple",
+    date: "May 2025",
+    Image: javascriptCert,
+    link: "/certifications/js-frameworks"
+  },
+  {
+    title: "HTML & CSS Fundamentals",
+    issuer: "Coding Temple",
+    date: "May 2025",
+    Image: htmlcsscert,
+    link: "/certifications/html-certification"
+  },
+  {
+    title: "Google Cybersecurity Professional Certificate",
+    issuer: "Google",
+    date: "March 2025",
+    Image: googleCert,
+    link: "/certifications/google-certification"
+  },
 ];
+
+
+
 
 export default function Certifications() {
   return (

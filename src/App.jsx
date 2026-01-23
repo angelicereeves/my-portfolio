@@ -19,6 +19,7 @@ import Project11 from "./components/projectDetails/project11";
 import Project12 from "./components/projectDetails/project12";
 import AdvancedEcommerce from './components/projectDetails/advancedEcomerce';
 import TaskManagementApp from './components/projectDetails/taskManagementApp';
+import FirebaseEcommerce from './components/projectDetails/firebaseEcommerce';
 import GoogleCert from "./components/certificationDetails/google-cert";
 import HTMLCert from "./components/certificationDetails/html-cert";
 import JSFrameworks from "./components/certificationDetails/jsframeworks";
@@ -28,6 +29,11 @@ import IntroPython from "./components/certificationDetails/intropython";
 import AdvPython from "./components/certificationDetails/advPython";
 import RelationalDB from "./components/certificationDetails/relationalDB";
 import FrontendFoundations from "./components/certificationDetails/frontendFoundations";
+import FrontendCore from "./components/certificationDetails/frontendCore";
+import Completion from './components/certificationDetails/completion';
+import BackendSpecialist from "./components/certificationDetails/backendSpecialist";
+import BackendCore from "./components/certificationDetails/backendCore";
+import FrontendSpecialist from "./components/certificationDetails/frontendSpecialist";
 
 function App() {
   return (
@@ -54,6 +60,7 @@ function App() {
             <Route path="/projects/project12" element={<Project12 />} />
             <Route path="/projects/advancedEcommerce" element={<AdvancedEcommerce />} />
             <Route path="/projects/taskManagementApp" element={<TaskManagementApp />} />
+            <Route path="/projects/firebaseEcommerce" element={<FirebaseEcommerce />} />
             <Route path="/certifications/google-certification" element={<GoogleCert />} />
             <Route path="/certifications/html-certification" element={<HTMLCert />} />
             <Route path="/certifications/js-frameworks" element={<JSFrameworks />} />
@@ -63,6 +70,11 @@ function App() {
             <Route path="/certifications/adv-python" element={<AdvPython />} />
             <Route path="/certifications/relationalDB" element={<RelationalDB />} />
             <Route path="/certifications/frontendFoundations" element={<FrontendFoundations />} />
+            <Route path="/certifications/frontendCore" element={<FrontendCore />} />
+            <Route path="/certifications/frontend-specialist"  element={<FrontendSpecialist />}/>
+            <Route path="/certifications/backendSpecialist" element={<BackendSpecialist />}/>
+            <Route path="/certifications/backend-core" element={<BackendCore />} />
+            <Route path="/certifications/completion" element={<Completion />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
