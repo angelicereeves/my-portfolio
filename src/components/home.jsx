@@ -26,14 +26,29 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-white via-purple-100 to-purple-300 flex flex-col lg:flex-row items-center px-4 sm:px-6 lg:px-12 py-12 gap-12">
 
-      {/* LEFT: Cards and Info (now first in DOM order) */}
+      {/* LEFT: Cards and Info */}
       <div className="flex flex-col items-center lg:items-start w-full px-2">
-        {/* Name/Title/Tagline */}
-        <div className="mb-8 text-center lg:text-left">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-purple-700 mb-2">Angelica Reeves</h1>
+        {/* Name + Resume Button */}
+        <div className="mb-8 text-center lg:text-left w-full">
+          <div className="flex items-center justify-between gap-4 flex-wrap mb-2">
+            <h1 className="text-4xl md:text-5xl font-extrabold text-purple-700">
+              Angelica Reeves
+            </h1>
+
+            <a
+              href="/2025AngelicaReevesSEresume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-5 py-3 bg-purple-700 text-white font-semibold rounded-lg shadow hover:bg-purple-600 transition"
+            >
+              View Resume
+            </a>
+          </div>
+
           <h2 className="text-xl md:text-2xl text-purple-700 font-semibold mb-2">
             Full Stack Developer
           </h2>
+
           <p className="text-gray-700 max-w-md mx-auto lg:mx-0">
             I build web applications that combine functionality, performance, and great design. As a full stack developer, I leverage JavaScript, Python, Node.js, and cloud technologies to deliver seamless, responsive, and impactful digital solutions.
           </p>
@@ -83,7 +98,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* RIGHT: Rotating GIFs (now second in DOM order) */}
+      {/* RIGHT: Rotating GIFs */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 w-full max-w-3xl mx-auto">
         {order.map((i, index) => (
           <img
@@ -98,3 +113,4 @@ export default function Home() {
     </main>
   );
 }
+
