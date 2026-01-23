@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import profileImg from "../assets/images/profile.jpg";
-import vicsPic from "../assets/images/vicspic-drinks.jpg";
-import vicPic from "../assets/images/vicspic.jpg";
+import vicsPic1 from "../assets/images/vicspic-drinks.jpg";
+import vicsPic from "../assets/images/vicspic.jpg";
 import travelPic from "../assets/images/travel.jpg";
 
 const images = [
   { src: profileImg, alt: "Angelica" },
-  { src: vicsPic, alt: "Angelica serving drinks" },
+  { src: vicsPic1, alt: "Angelica serving drinks" },
   { src: travelPic, alt: "Pictured Rocks Park" },
-  { src: vicPic, alt: "Angelica working" },
+  { src: vicsPic, alt: "Angelica working" },
 ];
 
 const skills = [
