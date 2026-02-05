@@ -20,6 +20,12 @@ import Project12 from "./components/projectDetails/project12";
 import AdvancedEcommerce from './components/projectDetails/advancedEcomerce';
 import TaskManagementApp from './components/projectDetails/taskManagementApp';
 import FirebaseEcommerce from './components/projectDetails/firebaseEcommerce';
+import TravelTracker from "./components/projectDetails/travelTracker";
+import RestaurantTraining from "./components/projectDetails/restaurantTraining";
+import CraveCafe from "./components/projectDetails/craveCafe";
+
+
+
 import GoogleCert from "./components/certificationDetails/google-cert";
 import HTMLCert from "./components/certificationDetails/html-cert";
 import JSFrameworks from "./components/certificationDetails/jsframeworks";
@@ -61,6 +67,11 @@ function App() {
             <Route path="/projects/advancedEcommerce" element={<AdvancedEcommerce />} />
             <Route path="/projects/taskManagementApp" element={<TaskManagementApp />} />
             <Route path="/projects/firebaseEcommerce" element={<FirebaseEcommerce />} />
+            <Route path="/projects/travel-tracker" element={<TravelTracker />} />
+            <Route path="/projects/restaurant-training" element={<RestaurantTraining />} />
+            <Route path="/projects/craveCafe" element={<CraveCafe />} />
+
+
             <Route path="/certifications/google-certification" element={<GoogleCert />} />
             <Route path="/certifications/html-certification" element={<HTMLCert />} />
             <Route path="/certifications/js-frameworks" element={<JSFrameworks />} />
