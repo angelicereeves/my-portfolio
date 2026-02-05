@@ -1,5 +1,5 @@
 import React from "react";
-import travelTrackerVideo from "../../assets/images/travelTrackeriVdeo.mp4";
+import travelTrackerVideo from "../../assets/images/travelTrackerVideo.mp4";
 
 const skills = [
   "Next.js",
