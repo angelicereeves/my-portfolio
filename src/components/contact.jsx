@@ -16,8 +16,8 @@ export default function Contact() {
           {[
             {
               icon: <FaEnvelope className="text-2xl text-red-500" />,
-              text: "angelica.a.j.reeves@gmail.com",
-              href: "mailto:angelica.a.j.reeves@gmail.com",
+              text: "angelicareeves@proton.me",
+              href: "mailto:angelicareeves@proton.me",
             },
             {
               icon: <FaPhoneAlt className="text-2xl text-green-500" />,
