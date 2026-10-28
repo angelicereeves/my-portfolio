@@ -20,6 +20,9 @@ import travelTrackerGif from "../assets/images/travelTracker.gif";
 import restaurantTrainingGif from "../assets/images/restaurantTrainingGif.gif";
 import craveCafeGif from "../assets/images/craveCafeGif.gif";
 import PaddleGif from "../assets/images/paddle.gif";
+import HaxhiGif from "../assets/images/haxhi.gif";
+import velaMarineGif from "../assets/images/velaMarine.gif";
+import westoshaGif from "../assets/images/westoshaTrack.gif";
 
 const projectData = [
   {
@@ -29,6 +32,30 @@ const projectData = [
   gif: PaddleGif,
   link: "/projects/bistrica-paddle",
   live: "https://www.bistricapaddleboard.com/",
+},
+{
+  title: "Haxhi Restaurant Website",
+  description:
+    "A modern, responsive restaurant website designed for a Mediterranean and Albanian restaurant in Sarandë, Albania. Showcases the restaurant's identity, cuisine, and dining experience through an intuitive, mobile-friendly interface.",
+  gif: HaxhiGif,
+  link: "/projects/haxhi",
+  live: "https://haxhi.vercel.app/",
+},
+{
+  title: "Vela Marine Restaurant",
+  description:
+    "A modern, responsive restaurant website developed with AI-assisted tools for a waterfront dining establishment in Sarandë, Albania. Features coastal-inspired design, intuitive navigation, and a polished, mobile-friendly user experience.",
+  gif: velaMarineGif,
+  link: "/projects/vela-marine",
+  live: "https://velamarine.vercel.app/",
+},
+{
+  title: "Westosha Falcon Track & Field",
+  description:
+    "A responsive athletics website developed for Westosha Central's track and field program. Designed to provide a centralized digital experience for athletes, coaches, and supporters through modern UI design and intuitive navigation.",
+  gif: westoshaGif,
+  link: "/projects/westosha-falcon-track",
+  live: "https://westosha-falcon-track.vercel.app/",
 },
   {
     title: "Restaurant Training Platform",

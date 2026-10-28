@@ -24,7 +24,9 @@ import TravelTracker from "./components/projectDetails/travelTracker";
 import RestaurantTraining from "./components/projectDetails/restaurantTraining";
 import CraveCafe from "./components/projectDetails/craveCafe";
 import BistricaPaddle from "./components/projectDetails/bistricaPaddle";
-
+import Haxhi from "./components/projectDetails/haxhi";
+import VelaMarine from "./components/projectDetails/velaMarine";
+import WestoshaFalconTrack from "./components/projectDetails/westoshaFalconTrack";
 
 
 import GoogleCert from "./components/certificationDetails/google-cert";
@@ -72,8 +74,9 @@ function App() {
             <Route path="/projects/restaurant-training" element={<RestaurantTraining />} />
             <Route path="/projects/craveCafe" element={<CraveCafe />} />
             <Route path="/projects/bistrica-paddle"  element={<BistricaPaddle />}/>
-
-
+            <Route path="/projects/haxhi" element={<Haxhi />} />
+            <Route path="/projects/vela-marine"  element={<VelaMarine />}/>
+            <Route path="/projects/westosha-falcon-track"  element={<WestoshaFalconTrack />}/>
 
             <Route path="/certifications/google-certification" element={<GoogleCert />} />
             <Route path="/certifications/html-certification" element={<HTMLCert />} />
