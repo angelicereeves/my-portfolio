@@ -23,6 +23,7 @@ import FirebaseEcommerce from './components/projectDetails/firebaseEcommerce';
 import TravelTracker from "./components/projectDetails/travelTracker";
 import RestaurantTraining from "./components/projectDetails/restaurantTraining";
 import CraveCafe from "./components/projectDetails/craveCafe";
+import BistricaPaddle from "./components/projectDetails/bistricaPaddle";
 
 
 
@@ -70,6 +71,8 @@ function App() {
             <Route path="/projects/travel-tracker" element={<TravelTracker />} />
             <Route path="/projects/restaurant-training" element={<RestaurantTraining />} />
             <Route path="/projects/craveCafe" element={<CraveCafe />} />
+            <Route path="/projects/bistrica-paddle"  element={<BistricaPaddle />}/>
+
 
 
             <Route path="/certifications/google-certification" element={<GoogleCert />} />

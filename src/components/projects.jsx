@@ -19,8 +19,17 @@ import firebaseEcommerce from "../assets/images/ecommerceFirebase.gif";
 import travelTrackerGif from "../assets/images/travelTracker.gif";
 import restaurantTrainingGif from "../assets/images/restaurantTrainingGif.gif";
 import craveCafeGif from "../assets/images/craveCafeGif.gif";
+import PaddleGif from "../assets/images/paddle.gif";
 
 const projectData = [
+  {
+  title: "Bistrica Paddle",
+  description:
+    "A responsive, multilingual website built for a paddleboard rental business in Sarandë, Albania. Features interactive service listings, pricing, WhatsApp booking integration, and Google Maps.",
+  gif: PaddleGif,
+  link: "/projects/bistrica-paddle",
+  live: "https://www.bistricapaddleboard.com/",
+},
   {
     title: "Restaurant Training Platform",
     description:
