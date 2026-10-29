@@ -27,7 +27,7 @@ import BistricaPaddle from "./components/projectDetails/bistricaPaddle";
 import Haxhi from "./components/projectDetails/haxhi";
 import VelaMarine from "./components/projectDetails/velaMarine";
 import WestoshaFalconTrack from "./components/projectDetails/westoshaFalconTrack";
-
+import IonianDigital from "./components/projectDetails/ionianDigital";
 
 import GoogleCert from "./components/certificationDetails/google-cert";
 import HTMLCert from "./components/certificationDetails/html-cert";
@@ -77,6 +77,7 @@ function App() {
             <Route path="/projects/haxhi" element={<Haxhi />} />
             <Route path="/projects/vela-marine"  element={<VelaMarine />}/>
             <Route path="/projects/westosha-falcon-track"  element={<WestoshaFalconTrack />}/>
+            <Route path="/projects/ionian-digital"  element={<IonianDigital />}/>
 
             <Route path="/certifications/google-certification" element={<GoogleCert />} />
             <Route path="/certifications/html-certification" element={<HTMLCert />} />

@@ -23,8 +23,17 @@ import PaddleGif from "../assets/images/paddle.gif";
 import HaxhiGif from "../assets/images/haxhi.gif";
 import velaMarineGif from "../assets/images/velaMarine.gif";
 import westoshaGif from "../assets/images/westoshaTrack.gif";
+import IonianGif from "../assets/images/ionian.gif";
 
 const projectData = [
+  {
+  title: "Ionian Digital",
+  description:
+    "A modern, responsive website built for my web development agency, specializing in custom websites, redesigns, and digital solutions for businesses. Features sleek animations, interactive service listings, and a streamlined contact experience.",
+  gif: IonianGif,
+  link: "/projects/ionian-digital",
+  live: "https://www.ionian-digital.com/",
+},
   {
   title: "Bistrica Paddle",
   description:
