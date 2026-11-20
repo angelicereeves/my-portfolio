@@ -36,7 +36,7 @@ export default function Home() {
             </h1>
 
             <a
-              href="/2025AngelicaReevesSEresume.pdf"
+              href="/Angelica_Reeves_Full_Stack_Resume_Portfolio_2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-5 py-3 bg-purple-700 text-white font-semibold rounded-lg shadow hover:bg-purple-600 transition"
